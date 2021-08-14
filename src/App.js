@@ -1,10 +1,15 @@
 import { css } from '@emotion/react'
 import { Canvas } from 'react-three-fiber'
+import SampleBox from './components/SampleBox'
+import Controls from './utils/Controls'
 
 const App = () => {
   return (
     <div css={container}>
-      <Canvas></Canvas>
+      <Canvas>
+        <SampleBox />
+        <Controls />
+      </Canvas>
     </div>
   )
 }
