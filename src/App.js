@@ -9,6 +9,7 @@ const App = () => {
       <Canvas>
         <SampleBox />
         <Controls />
+        <gridHelper />
       </Canvas>
     </div>
   )
